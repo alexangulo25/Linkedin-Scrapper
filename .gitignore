@@ -1,0 +1,32 @@
+# Directorio virtualenv o entorno virtual
+venv/
+env/
+
+# Directorio de dependencias instaladas (por ejemplo, con pip)
+/venv/
+/env/
+/bin/
+/lib/
+/include/
+
+# Archivos generados automáticamente
+*.pyc
+__pycache__/
+
+# Archivos de registro y archivos temporales
+*.log
+*.pot
+*.pyo
+*~
+
+# Archivos de configuración local
+.env
+.env.*
+
+# Archivos de compilación o build
+/build/
+/dist/
+/__pycache__/
+
+# Archivos de caché
+.cache/
